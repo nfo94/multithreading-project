@@ -56,6 +56,6 @@ func FetchFromViaCEP(cep string, resultChan chan<- utils.AddressResult) {
 	select {
 	case resultChan <- result:
 	default:
-		// Discard if channel already received another result
+		// Discard
 	}
 }
