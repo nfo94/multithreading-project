@@ -1,4 +1,4 @@
-### Go multithreading
+### multithreading-project
 
 This sample project is an example of a multithreaded application. To run this project you need
 [Go](https://go.dev/) installed. After setting up Go, go to the root folder of the project
